@@ -1,0 +1,23 @@
+body {
+    font-family: 'Inter', Courier, monospace;
+    margin: 0;
+}
+
+nav {
+    height: 55px;
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-left: 7px;
+    letter-spacing: -0.075em;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
